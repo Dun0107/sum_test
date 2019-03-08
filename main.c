@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include "sum.h"
 
 int main()
+
 {
         int a;
         int b;
         int value;
 
         printf("정수 두개를 입력하시오: ");
-        scanf_s("%d %d", &a, &b);
+        scanf("%d %d", &a, &b);
 
         value = (a + b)*(abs(a - b) + 1) / 2;
 
