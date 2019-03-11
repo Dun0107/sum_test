@@ -6,10 +6,11 @@ int main(void)
 	int a;
 	int b;
 
-	printf("Á¤¼ö µÎ°³¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì •ìˆ˜ ë‘ê°œë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf_s("%d %d", &a, &b);
 	int result = sum(a, b);
-	printf("%d¿¡¼­ %d±îÁöÀÇ ÃÑÇÕÀº %dÀÔ´Ï´Ù", a, b, result);
+	printf("%dì—ì„œ %dê¹Œì§€ì˜ ì´í•©ì€ %dì…ë‹ˆë‹¤", a, b, result);
 	return 0;
 
 }
+
